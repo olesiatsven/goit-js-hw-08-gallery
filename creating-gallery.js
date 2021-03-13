@@ -23,3 +23,19 @@ function createGalleryElements (element) {
 
 const createListGallery = images.map(image => createGalleryElements(image));
 galleryRef.append(...createListGallery);
+
+
+
+
+// function addGallery(array, parent) {
+//     const createItem = images.map((image) => {
+//         arrayOfImages.push(element.original);
+//         return createGalleryElements(element);
+//     });
+    
+//     parent.append(...createItem);
+    
+// }
+// const galleryItems = images.default;
+
+// addGallery(galleryItems,galleryRef)
